@@ -1,8 +1,26 @@
 aid: istra-research
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/istra-research.png
 name: Istra Research
-description: Istra Research is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Istra Research (Istra LLC) is a quantitative proprietary trading firm
+  that develops data-centric algorithms and low-latency technology to participate
+  in global financial markets. The firm employs researchers and engineers who build
+  automated trading strategies grounded in advanced mathematics, statistics, and large-scale
+  data analysis, spanning quantitative research, algorithm development, and custom
+  hardware/VLSI and software engineering. Istra is a proprietary trading operation
+  rather than an API-first technology vendor: it publishes no public developer portal,
+  API, SDKs, or developer documentation, and its technology is used internally. It
+  was surfaced in the API Evangelist network as a portfolio company of Battery Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/istra-research/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Quantitative Trading
+- Proprietary Trading
+- Financial Markets
+- Algorithmic Trading
+- Quantitative Research
+- Fintech
+- Data Science
 apis: []
+common:
+- type: Website
+  url: https://istrallc.com/
+- type: Careers
+  url: https://istrallc.com/careers/
+- type: News
+  url: https://istrallc.com/news/
+- type: Support
+  url: https://istrallc.com/contact-us/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/istraresearch/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
